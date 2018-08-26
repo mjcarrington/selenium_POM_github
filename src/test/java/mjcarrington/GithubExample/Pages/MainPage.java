@@ -10,7 +10,7 @@ public class MainPage extends BasePage {
     public MainPage(RemoteWebDriver driver) { super(driver); }
 
     // Elements - Menu Bar
-    @FindBy(css = "div[class*='HeaderMenu']") // TODO: Make this more unique
+    @FindBy(css = "div[class*='HeaderMenu']")
     private WebElement mainHeaderContainer;
 
     @FindBy(linkText = "Features")
