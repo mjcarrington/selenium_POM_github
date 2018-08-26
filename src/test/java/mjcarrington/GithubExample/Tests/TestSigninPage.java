@@ -1,7 +1,10 @@
 package mjcarrington.GithubExample.Tests;
 
 import mjcarrington.GithubExample.Pages.SigninPage;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
+
+@Listeners(TestNGITestListener.class)
 
 public class TestSigninPage extends TestBase{
 

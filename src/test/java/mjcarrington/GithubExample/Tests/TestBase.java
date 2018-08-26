@@ -1,7 +1,6 @@
 package mjcarrington.GithubExample.Tests;
 
 import mjcarrington.GithubExample.Pages.BasePage;
-import mjcarrington.GithubExample.Pages.MainPage;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.*;
