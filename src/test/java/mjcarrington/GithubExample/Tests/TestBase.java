@@ -15,16 +15,25 @@ public class TestBase {
     public static RemoteWebDriver driver;
     BasePage basePage;
     MainPage mainPage;
+    public static final String baseTestURL = "http://www.github.com";
 
+    // Driver bring-up
     @BeforeClass
     protected void createDriver() throws Exception {
         System.setProperty("webdriver.chrome.driver", "/Applications/Selenium/chromedriver");
         ChromeOptions chromeOptions = new ChromeOptions();
         driver = new RemoteWebDriver(new URL("http://127.0.0.1:4444/wd/hub"), chromeOptions);
-        driver.get("http://www.github.com");
+        driver.get(baseTestURL);
         basePage = new BasePage(driver);
     }
 
+    // Reset our state after each test
+    @AfterMethod
+    public void resetTestState() {
+        driver.navigate().to(baseTestURL);
+    }
+
+    // End test
     @AfterClass
     public void tearDown() {
         driver.quit();
