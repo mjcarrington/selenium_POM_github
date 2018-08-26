@@ -1,5 +1,6 @@
-package mjcarrington.GithubExample.Tests;
+package mjcarrington.GithubExample.Utility;
 
+import mjcarrington.GithubExample.Tests.TestBase;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestNGMethod;

@@ -708,7 +708,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535300499885" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535300740229" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -754,7 +754,7 @@
       <module name="selenium_POM_github_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mjcarrington.GithubExample.Tests.*" />
+          <option name="PATTERN" value="mjcarrington.GithubExample.Utility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -771,7 +771,7 @@
       <module name="selenium_POM_github_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mjcarrington.GithubExample.Tests.*" />
+          <option name="PATTERN" value="mjcarrington.GithubExample.Utility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -790,7 +790,7 @@
       <module name="selenium_POM_github_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mjcarrington.GithubExample.Tests.*" />
+          <option name="PATTERN" value="mjcarrington.GithubExample.Utility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -809,7 +809,7 @@
       <module name="selenium_POM_github_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mjcarrington.GithubExample.Tests.*" />
+          <option name="PATTERN" value="mjcarrington.GithubExample.Utility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -828,7 +828,7 @@
       <module name="selenium_POM_github_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mjcarrington.GithubExample.Tests.*" />
+          <option name="PATTERN" value="mjcarrington.GithubExample.Utility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

@@ -1,6 +1,7 @@
 package mjcarrington.GithubExample.Tests;
 
 import mjcarrington.GithubExample.Pages.SigninPage;
+import mjcarrington.GithubExample.Utility.TestNGITestListener;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
