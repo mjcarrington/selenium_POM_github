@@ -10,4 +10,10 @@ public class TestMainPage extends TestBase{
         MainPage mainPage = new MainPage(driver);
         mainPage.testNavFeatures();
     }
+
+    @Test(priority = 2)
+    public void navigateLogin() {
+        MainPage mainPage = new MainPage(driver);
+        mainPage.testNavLogin();
+    }
 }
