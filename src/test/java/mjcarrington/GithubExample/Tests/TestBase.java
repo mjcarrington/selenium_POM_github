@@ -2,20 +2,20 @@ package mjcarrington.GithubExample.Tests;
 
 import mjcarrington.GithubExample.Pages.BasePage;
 import mjcarrington.GithubExample.Pages.MainPage;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.*;
 
 import java.net.URL;
 
 public class TestBase {
     public static RemoteWebDriver driver;
-    BasePage basePage;
-    MainPage mainPage;
     public static final String baseTestURL = "http://www.github.com";
+    // If using this as a test project, you will need to define these env variables
+    public static final String username = System.getenv("GITHUBTESTUSERNAME");
+    public static final String password = System.getenv("GITHUBTESTPASSWORD");
+    BasePage basePage;
+
 
     // Driver bring-up
     @BeforeClass
