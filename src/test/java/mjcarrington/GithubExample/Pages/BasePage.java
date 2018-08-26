@@ -37,6 +37,12 @@ public class BasePage {
         Assert.assertTrue(waitElement.isDisplayed());
     }
 
+    // Assert fuzzy text match
+    public void assertFuzzyTextDisplayed(String searchQuery) {
+        WebElement searchElement = driver.findElementByXPath("//*[contains(text(), '"+searchQuery+"')]");
+        Assert.assertTrue(searchElement.isDisplayed(), "Text not displayed: " + searchQuery);
+    }
+
     // Validate string match of current url against expected url
      public void validateCurrentUrl(String expectedUrl) {
         String currentUrl = driver.getCurrentUrl();

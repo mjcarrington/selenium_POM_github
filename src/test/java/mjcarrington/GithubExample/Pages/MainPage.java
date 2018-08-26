@@ -1,17 +1,15 @@
 package mjcarrington.GithubExample.Pages;
 
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.FindBy;
-
-import javax.xml.bind.annotation.XmlAnyAttribute;
 
 public class MainPage extends BasePage {
 
     public MainPage(RemoteWebDriver driver) { super(driver); }
 
-    // Elements
+    // Elements - Menu Bar
     @FindBy(css = "div[class*='HeaderMenu']") // TODO: Make this more unique
     private WebElement mainHeaderContainer;
 
@@ -27,8 +25,12 @@ public class MainPage extends BasePage {
     @FindBy(linkText = "Sign in")
     private WebElement mainHeaderSignIn;
 
-    @FindBy(css = "form[class='js-site-search-form']")
+    @FindBy(xpath = "//form[@class='js-site-search-form']/descendant::input[@type='text']")
     private WebElement mainSearchField;
+
+    // Elements - Search Page
+    @FindBy(css = "summary[class*='select-menu-button']")
+    private WebElement MainSearchSortContainer;
 
     // Tests
     public void testNavFeatures() {
@@ -39,18 +41,24 @@ public class MainPage extends BasePage {
         navigateTopBar(mainHeaderSignIn, "login");
     }
 
+    public void testSearchForRepo(String searchQuery) {
+        searchRepos(searchQuery);
+    }
+
     // Helper
     private void navigateTopBar(WebElement navSelection, String expectedUrl) {
         assertMainPage();
-        explicitWait(navSelection, 3);
-        navSelection.click();
+        explicitWaitAndClick(navSelection, 3);
         validateCurrentUrl(expectedUrl);
     }
 
     private void searchRepos(String searchQuery) {
         assertMainPage();
-
-
+        explicitWait(mainSearchField, 3);
+        mainSearchField.sendKeys(searchQuery);
+        mainSearchField.sendKeys(Keys.RETURN);
+        explicitWait(MainSearchSortContainer, 3);
+        assertFuzzyTextDisplayed("repository results");
     }
 
     // Asserts

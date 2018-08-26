@@ -16,4 +16,10 @@ public class TestMainPage extends TestBase{
         MainPage mainPage = new MainPage(driver);
         mainPage.testNavLogin();
     }
+
+    @Test(priority = 3)
+    public void searchForRepository() {
+        MainPage mainPage = new MainPage(driver);
+        mainPage.testSearchForRepo("google/fruit");
+    }
 }

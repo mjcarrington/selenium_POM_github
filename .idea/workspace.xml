@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b818a34b-f09e-436d-8c80-b0394931375b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/mjcarrington/GithubExample/Pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/mjcarrington/GithubExample/Pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/mjcarrington/GithubExample/Pages/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/mjcarrington/GithubExample/Pages/MainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/mjcarrington/GithubExample/Pages/MainPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/mjcarrington/GithubExample/Tests/TestMainPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/mjcarrington/GithubExample/Tests/TestMainPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/mjcarrington/GithubExample/Pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mjcarrington/GithubExample/Pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/mjcarrington/GithubExample/Pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mjcarrington/GithubExample/Pages/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/mjcarrington/GithubExample/Tests/TestMainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mjcarrington/GithubExample/Tests/TestMainPage.java" afterDir="false" />
@@ -50,13 +47,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="15" />
-          <entry key="java" value="3129" />
+          <entry key="java" value="4329" />
+          <entry key="txt" value="191" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="15" />
-          <entry key="JAVA" value="3129" />
+          <entry key="JAVA" value="4329" />
+          <entry key="PLAIN_TEXT" value="191" />
         </counts>
       </usages-collector>
     </session>
@@ -84,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/mjcarrington/GithubExample/Tests/TestMainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,14 +98,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/mjcarrington/GithubExample/Pages/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="161">
+              <caret line="31" column="57" lean-forward="true" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#673#674#0" expanded="true" />
-                <element signature="e#723#724#0" expanded="true" />
+                <element signature="e#1016#1017#0" expanded="true" />
+                <element signature="e#1078#1079#0" expanded="true" />
                 <element signature="e#880#881#0" expanded="true" />
                 <element signature="e#937#938#0" expanded="true" />
+                <element signature="e#1161#1162#0" expanded="true" />
+                <element signature="e#1197#1198#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,11 +125,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/mjcarrington/GithubExample/Pages/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="34" column="64" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
+            <state relative-caret-position="401">
+              <caret line="35" column="89" lean-forward="true" selection-start-line="35" selection-start-column="89" selection-end-line="35" selection-end-column="89" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -519,17 +520,18 @@
         <option value="$PROJECT_DIR$/src/test/java/mjcarrington/GithubExample/Example.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/mjcarrington/GithubExample/Tests/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/mjcarrington/GithubExample/Pages/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/mjcarrington/GithubExample/Tests/TestMainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/mjcarrington/GithubExample/Pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/mjcarrington/GithubExample/Pages/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mjcarrington/GithubExample/Tests/TestMainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/mjcarrington/GithubExample/Pages/BasePage.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="813" />
     <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="931" />
+    <option name="width" value="2102" />
+    <option name="height" value="1320" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -677,7 +679,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535288468014" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535297942035" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -695,7 +697,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestMainPage.navigateLogin">
+  <component name="RunManager" selected="TestNG.TestMainPage.searchForRepository">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -752,6 +754,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestMainPage.searchForRepository" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium_POM_github_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mjcarrington.GithubExample.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mjcarrington.GithubExample.Tests" />
+      <option name="MAIN_CLASS_NAME" value="mjcarrington.GithubExample.Tests.TestMainPage" />
+      <option name="METHOD_NAME" value="searchForRepository" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
@@ -772,9 +793,11 @@
     <list>
       <item itemvalue="TestNG.TestMainPage.navigateFeaturesTab" />
       <item itemvalue="TestNG.TestMainPage.navigateLogin" />
+      <item itemvalue="TestNG.TestMainPage.searchForRepository" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestMainPage.searchForRepository" />
         <item itemvalue="TestNG.TestMainPage.navigateLogin" />
         <item itemvalue="TestNG.TestMainPage.navigateFeaturesTab" />
       </list>
@@ -791,45 +814,53 @@
       <option name="presentableId" value="Default" />
       <updated>1535222786407</updated>
     </task>
+    <task id="LOCAL-00001" summary="- Added in a new page Login page (WIP)&#10;- Improved method when we navigate a tab to verify the resulting URL&#10;- Added in more helper methods&#10;- Added test to navigate to the login page">
+      <created>1535288608560</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535288608560</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMainPage_navigateFeaturesTab - 2018.08.25 at 16h 25m 36s.xml">
-      <configuration name="TestMainPage.navigateFeaturesTab" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_navigateFeaturesTab - 2018.08.26 at 07h 04m 56s.xml">
-      <configuration name="TestMainPage.navigateFeaturesTab" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_navigateFeaturesTab - 2018.08.26 at 07h 14m 08s.xml">
-      <configuration name="TestMainPage.navigateFeaturesTab" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_navigateFeaturesTab - 2018.08.26 at 07h 14m 43s.xml">
-      <configuration name="TestMainPage.navigateFeaturesTab" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_navigateFeaturesTab - 2018.08.26 at 07h 15m 22s.xml">
-      <configuration name="TestMainPage.navigateFeaturesTab" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_navigateFeaturesTab - 2018.08.26 at 07h 15m 41s.xml">
-      <configuration name="TestMainPage.navigateFeaturesTab" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_navigateFeaturesTab - 2018.08.26 at 07h 15m 53s.xml">
-      <configuration name="TestMainPage.navigateFeaturesTab" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMainPage_navigateFeaturesTab - 2018.08.26 at 07h 35m 03s.xml">
-      <configuration name="TestMainPage.navigateFeaturesTab" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestMainPage_navigateLogin - 2018.08.26 at 07h 54m 56s.xml">
       <configuration name="TestMainPage.navigateLogin" configurationId="TestNG" />
     </history-entry>
     <history-entry file="TestMainPage_navigateLogin - 2018.08.26 at 07h 57m 26s.xml">
       <configuration name="TestMainPage.navigateLogin" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestMainPage_searchForRepository - 2018.08.26 at 08h 09m 50s.xml">
+      <configuration name="TestMainPage.searchForRepository" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_searchForRepository - 2018.08.26 at 08h 23m 11s.xml">
+      <configuration name="TestMainPage.searchForRepository" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_searchForRepository - 2018.08.26 at 08h 23m 26s.xml">
+      <configuration name="TestMainPage.searchForRepository" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_searchForRepository - 2018.08.26 at 08h 32m 55s.xml">
+      <configuration name="TestMainPage.searchForRepository" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_searchForRepository - 2018.08.26 at 08h 33m 41s.xml">
+      <configuration name="TestMainPage.searchForRepository" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_searchForRepository - 2018.08.26 at 09h 12m 01s.xml">
+      <configuration name="TestMainPage.searchForRepository" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_searchForRepository - 2018.08.26 at 09h 12m 43s.xml">
+      <configuration name="TestMainPage.searchForRepository" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMainPage_searchForRepository - 2018.08.26 at 10h 38m 31s.xml">
+      <configuration name="TestMainPage.searchForRepository" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="931" extended-state="6" />
+    <frame x="813" y="23" width="2102" height="1320" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32051283" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25485438" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -838,7 +869,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4827175" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32980457" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -862,6 +893,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- Added in a new page Login page (WIP)&#10;- Improved method when we navigate a tab to verify the resulting URL&#10;- Added in more helper methods&#10;- Added test to navigate to the login page" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Added in a new page Login page (WIP)&#10;- Improved method when we navigate a tab to verify the resulting URL&#10;- Added in more helper methods&#10;- Added test to navigate to the login page" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/mjcarrington/GithubExample/Example.java" />
@@ -883,26 +918,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/mjcarrington/GithubExample/Pages/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="34" column="64" selection-start-line="34" selection-start-column="64" selection-end-line="34" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/mjcarrington/GithubExample/Pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="161">
+          <caret line="31" column="57" lean-forward="true" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="e#1078#1079#0" expanded="true" />
             <element signature="e#880#881#0" expanded="true" />
             <element signature="e#937#938#0" expanded="true" />
+            <element signature="e#1161#1162#0" expanded="true" />
+            <element signature="e#1197#1198#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -919,8 +946,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/mjcarrington/GithubExample/Tests/TestMainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/mjcarrington/GithubExample/Pages/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="35" column="89" lean-forward="true" selection-start-line="35" selection-start-column="89" selection-end-line="35" selection-end-column="89" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
