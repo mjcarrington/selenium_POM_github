@@ -17,7 +17,7 @@ public class TestBase {
 
 
     // Driver bring-up
-    @BeforeClass
+    @BeforeTest(alwaysRun = true)
     protected void createDriver() throws Exception {
         ChromeOptions chromeOptions = new ChromeOptions();
         driver = new RemoteWebDriver(new URL("http://127.0.0.1:4444/wd/hub"), chromeOptions);
@@ -26,13 +26,13 @@ public class TestBase {
     }
 
     // Reset our state after each test
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void resetTestState() {
         driver.navigate().to(baseTestURL);
     }
 
     // End test
-    @AfterClass
+    @AfterTest(alwaysRun = true)
     public void tearDown() {
         driver.quit();
     }

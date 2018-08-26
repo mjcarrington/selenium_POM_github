@@ -16,8 +16,13 @@ dependencies {
     testCompile group: 'org.testng', name: 'testng', version: '6.10'
 }
 
+def allRegression = project.hasProperty("allRegression")
+
 test {
     useTestNG() {
+        if (allRegression) {
+            suites "/src/test/java/mjcarrington/GithubExample/Utility/TestNG-AllSuites.xml"
+        }
         testLogging.showStandardStreams = true
         useDefaultListeners = true
     }

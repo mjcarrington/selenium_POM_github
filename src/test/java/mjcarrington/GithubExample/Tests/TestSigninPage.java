@@ -15,7 +15,7 @@ public class TestSigninPage extends TestBase{
         signinPage.testSigninViewPage();
     }
 
-    @Test(priority = 1)
+    @Test(priority = 2)
     public void loginValidUser() {
         SigninPage signinPage = new SigninPage(driver);
         signinPage.testSigninToSite();
