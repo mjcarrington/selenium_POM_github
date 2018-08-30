@@ -27,10 +27,4 @@ public class TestMainPage extends TestBase{
         MainPage mainPage = new MainPage(driver);
         mainPage.testSearchForRepo("google/fruit");
     }
-
-    @Test(priority = 4)
-    public void contactSalesTeam() {
-        SalesTeamPage salesTeamPage = new SalesTeamPage(driver);
-        salesTeamPage.testSalesRequest();
-    }
 }

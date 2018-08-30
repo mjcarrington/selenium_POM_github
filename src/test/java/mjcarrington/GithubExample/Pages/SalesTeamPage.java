@@ -13,6 +13,9 @@ public class SalesTeamPage extends BasePage {
     @FindBy(css = "button[class*='js-trial-submit']")
     private WebElement salesSubmitButton;
 
+    @FindBy(css = "svg[class*='octicon']")
+    private WebElement salesHeaderReturnButton;
+
     // Request Fields
     @FindBy(id = "cr_ua_name")
     private WebElement salesNameField;
@@ -33,10 +36,18 @@ public class SalesTeamPage extends BasePage {
     public void testSalesRequest() {
         MainPage mainPage = new MainPage(driver);
         mainPage.navigateToSales();
-        enterSalesRequest();
         assertSalesPage();
+        enterSalesRequest();
         //submitSalesRequest(); // NOTE: Commenting this out so we do not spam the server :)
         // After this we would assert the page that we arrive on afterwards
+    }
+
+    public void testSalesNavigateBackToMain() {
+        MainPage mainPage = new MainPage(driver);
+        mainPage.navigateToSales();
+        assertSalesPage();
+        clickHeaderIconToReturnToMain();
+        mainPage.assertMainPage();
     }
 
     // Helpers
@@ -55,6 +66,10 @@ public class SalesTeamPage extends BasePage {
 
     private void submitSalesRequest() {
         explicitWaitAndClick(salesSubmitButton, 2);
+    }
+
+    private void clickHeaderIconToReturnToMain() {
+        explicitWaitAndClick(salesHeaderReturnButton,2 );
     }
 
     // Assert

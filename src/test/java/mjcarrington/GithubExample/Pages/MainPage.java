@@ -70,5 +70,5 @@ public class MainPage extends BasePage {
     }
 
     // Asserts
-    private void assertMainPage() { assertElement(mainHeaderContainer); }
+    public void assertMainPage() { assertElement(mainHeaderContainer); }
 }
