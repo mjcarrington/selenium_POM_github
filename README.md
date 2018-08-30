@@ -21,7 +21,7 @@ NOTE: the password test may fail if you do not have defined username / passwords
 
 # Frequently Asked Questions:
 Q: How can I tell this test is actually running?
-A: If you want to see what is happening during the run you can connect to the container via VNC. The VNC port being exposed with the directions above is 5901. Ideally you'd want to have a step after this in your CI system to parse the TestNG results.
+A: If you want to see what is happening during the run you can connect to the container via VNC. The VNC port being exposed with the directions above is 5901. Ideally you'd want to have a step after this in your CI system to parse the TestNG results. You can use the default password "secret" for VNC.
 
 Q: How do I know if docker is running?
 A: Run `docker ps` to see the process running.

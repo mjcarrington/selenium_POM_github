@@ -1,6 +1,7 @@
 package mjcarrington.GithubExample.Pages;
 
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.FindBy;
@@ -30,7 +31,10 @@ public class MainPage extends BasePage {
 
     // Elements - Search Page
     @FindBy(css = "summary[class*='select-menu-button']")
-    private WebElement MainSearchSortContainer;
+    private WebElement mainSearchSortContainer;
+
+    @FindBy(linkText = "Contact Sales")
+    private WebElement contactSalesButton;
 
     // Tests
     public void testNavFeatures() {
@@ -57,8 +61,12 @@ public class MainPage extends BasePage {
         explicitWait(mainSearchField, 3);
         mainSearchField.sendKeys(searchQuery);
         mainSearchField.sendKeys(Keys.RETURN);
-        explicitWait(MainSearchSortContainer, 3);
+        explicitWait(mainSearchSortContainer, 3);
         assertFuzzyTextDisplayed("repository results");
+    }
+
+    public void navigateToSales() {
+        explicitWaitAndClick(contactSalesButton, 2);
     }
 
     // Asserts
